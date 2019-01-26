@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;		/*set margin and padding on */
+}
+
+.container{
+	width: 100%;		/*set container size*/ 
+	height: 100%;
+}
+
+#header{				/* change background color and make a space between the two divs with flex boxes and space between*/
+	background-color: #FFE4E1;
+	display: flex;
+	padding: 50px;
+	justify-content: space-between;
+
+}
+							/* logo size of the header and put it 40% down*/
+#logoHeader img{
+	width: 250px;
+	height: 70px;
+	transform: translateY(40%);
+}
+
+#banner1 img{				/* banner img set size */
+	width: 800px;
+	height: 140px;
+}
+
+#navBar{					/* changed the navigation bar background color into a dark red and use a padding to put it into the right place */
+	background-color: firebrick;
+	padding: 5px;
+}
+							/* display the navbar into a line and use padding to make space between the content*/
+#navBar ul li{
+	display: inline;
+	padding: 10px;
+	padding-left: 40px;
+
+	
+
+}
+
+#navBar li a{				/* put away the underline and changed the size and color of the font*/
+	text-decoration: none;
+	font-size: 20pt;
+	color: white;
+}
+
+.main{						/* background img added and set the size on 100% and no repat */
+	background-image: url("img/traffic.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+
+}
+
+#mainTitle h1{				/* mainTitle changed color and font size and used padding to set into the right place */
+	color: white;
+	font-size: 50pt;
+	padding: 60px;
+}
+
+#mainTitle img{
+	width: 100%;
+}
+
+#calculator{			/* put the calc div at 80% size to make left and right space between the upper divs */
+	width: 80%;
+	height: 800px;		/*set the height of the div and added a grey broder,changed the background of the div */
+	margin: 0 auto;
+	border: 4px solid grey;
+	background-color: lightgrey;
+	opacity: 0.9;		/* make it a little bit transparent and changed the border corner with a radius */
+	margin-top: 10px;
+	border-radius: 4px;
+	z-index: 1;
+
+}
+
+
+
+#calculator p{
+	text-align: center;
+	font-size: 50pt;
+
+
+}
+
+/* change the color of the placeholder box into white and set the visibility */
+.txt{
+  width: 300px;
+  height: 50px;
+  background-color: white ;
+  opacity: 1;
+  font-size: 30pt;
+}
+
+.boxes1{				/* divs for the placeholder boxes. Set the boxes into a display flex and put it into a row direction*/
+	padding-top: 50px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+
+}
+
+.boxes2{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.boxes3{
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+#box5 input{			/* properties of the submit botton changed */
+	width: 30%;
+	height: 50px;
+	background-color: #32CD32;
+	color: white;
+	border-radius: 10px;
+}
+
+
+
+#box5 h4{
+	padding-top: 50px;
+	font-size: 35pt;
+	color: #32CD32;
+
+
+}
+
+#middleText{				/* background color changed make a bigger space between border on the top and button*/
+	background-color: lightgrey;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom:50px;
+	opacity: 0.8;			/* set the transparency little bit higher than the calc transparency*/
+	transform: translateY(-17%);	/* move the div to the top */
+}
+
+#middleText h2{
+	padding-bottom: 5px;
+	font-size: 40pt;
+	text-align: center;
+	font-weight: 500;
+
+}
+#middleText p{
+	font-weight: 500;
+	padding-bottom: 5px;
+	font-size: 30pt;
+	text-align: center;
+
+}
+
+.rows{					/* set the div size to 100% added a flex box and make space arround the rows */
+	width: 100%;	
+	position: relative;
+	display: flex;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	transform: translateY(-17%);
+	justify-content: space-around;
+	margin-top: 80px;
+
+}
+
+.rows h3{				/* row properties for the h3 font */
+	font-size: 20pt;
+	color: blue;
+	font-weight: normal;
+	padding-left: 50px;
+
+}
+
+.rows p{				/* row properties for the p tags */
+	font-size: 15pt;
+	padding-bottom: 30px;
+	padding-left: 50px;
+}
+
+
+.rows ul li{			/* row porperties and position properties for the unorded list */
+	list-style-type: none;
+	font-size: 15pt;
+	padding-bottom: 30px;
+	padding-left: 50px;	
+}
+
+.rows h4{
+	padding-left: 50px;
+	padding-bottom:  10px;
+}
+
+.rows h5{
+	padding-left: 50px;
+	color:grey;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+.rows li:before {					/* checkmarks added */
+  content: "\2713";
+  color: lightgreen;
+
+}
+ #row1{
+ 	width: 30%;
+ 	border: 2px solid lightgrey;
+ 	border-width: 3px 1px 1px 1px;	
+ 	padding: 30px;
+ 	box-shadow: 5px 10px #888888;
+	
+ }
+
+ #row2{					
+ 	width: 30%;
+ 	border: 2px solid lightgrey;
+ 	border-width: 3px 1px 1px 1px;	
+ 	padding: 30px;
+ 	box-shadow: 5px 10px #888888;
+
+ }
+
+.footer{					/* div footer background color changed and set into the right place with padding */
+	background-color: black;
+	padding-top: 30px;
+
+	
+	
+}
+
+.footer ul li{				/* navbar in the footer set into a line and changed the positon with padding */
+	display: inline;
+	padding-left: 20px;
+	font-size: 20pt;
+}
+
+.footer ul a{				/*remove the underline form the navbar elements */
+	color: white;
+	text-decoration: none;
+}
+
+.footer img{				/* set the pic direction to the right with translateX*/
+	padding: 90px;
+	transform: translateX(300%);
+}
+
+.footer p{
+	color: white;
+	text-align: center;
+	font-size: 20pt;
+	padding-bottom: 20px;
+}
+
