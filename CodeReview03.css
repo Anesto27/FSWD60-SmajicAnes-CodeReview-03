@@ -130,8 +130,10 @@
 	border-radius: 15px;
 
 }
-
-
+/*change the result into a another color*/
+#result{
+	color: green;
+}
 
 .boxes1{				/* divs for the placeholder boxes. Set the boxes into a display flex and put it into a row direction*/
 	padding-top: 50px;
