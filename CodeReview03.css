@@ -73,9 +73,13 @@
 	background-color: lightgrey;
 	opacity: 0.9;		/* make it a little bit transparent and changed the border corner with a radius */
 	margin-top: 10px;
-	border-radius: 4px;
-	z-index: 1;
+	border-radius: 10px;
 
+
+}
+
+#calculator b{
+	font-size: 20pt;
 }
 
 
