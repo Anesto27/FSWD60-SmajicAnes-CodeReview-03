@@ -1,3 +1,19 @@
+#header{				/* change background color and make a space between the two divs with flex boxes and space between*/
+	background-color: #FFE4E1;
+	display: flex;
+	padding: 50px;
+	flex-flow: column;
+
+
+}
+
+#banner1 img{				/* banner img set size */
+	width: 200px;
+	height: 40px;
+	padding-top: 50px;
+}
+
+
 #calculator{			/* put the calc div at 80% size to make left and right space between the upper divs */
 	width: 80%;
 	height: 1200px;		/*set the height of the div and added a grey broder,changed the background of the div */
@@ -7,7 +23,7 @@
 	opacity: 0.9;		/* make it a little bit transparent and changed the border corner with a radius */
 	margin-top: 10px;
 	border-radius: 4px;
-	z-index: 1;
+	
 
 }
 
@@ -17,30 +33,46 @@
 	font-size: 30pt;
 }
 
-.txt{
+#input1{
   width: 100px;
-  height: 20px;
+  height: 30px;
   background-color: white ;
   opacity: 1;
-  font-size: 30pt;
+  font-size: 10pt;
 }
 
-#box5 input{			/* properties of the submit botton changed */
-	width: 20%;
+#input2{
+  width: 100px;
+  height: 30px;
+  background-color: white ;
+  opacity: 1;
+  font-size: 10pt;
+}
+
+#input3{
+  width: 100px;
+  height: 30px;
+  background-color: white ;
+  opacity: 1;
+  font-size: 10pt;
+}
+
+#select{
+  width: 100px;
+  height: 30px;
+  background-color: white ;
+  opacity: 1;
+  font-size: 10pt;
+}
+
+#btn {
+	margin-top: 30px;
+	width: 100px;
 	height: 30px;
-	background-color: #32CD32;
+	background-color: green;
 	color: white;
-	border-radius: 10px;
-}
-#box5 input::placeholder{			/* the font size of the submit text changed */
-	font-size: 5pt;
-}
-
-
-#box5 h4{
-	padding-top: 50px;
-	font-size: 15pt;
-	color: #32CD32;
-
+	font-size: 10pt;
+	border-radius: 15px;
 
 }
+

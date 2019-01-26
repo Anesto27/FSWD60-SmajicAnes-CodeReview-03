@@ -87,14 +87,51 @@
 
 }
 
-/* change the color of the placeholder box into white and set the visibility */
-.txt{
+/* change the color of the input placeholder box into white and set the size */
+#input1{
   width: 300px;
   height: 50px;
   background-color: white ;
   opacity: 1;
   font-size: 30pt;
 }
+
+#input2{
+  width: 300px;
+  height: 50px;
+  background-color: white ;
+  opacity: 1;
+  font-size: 30pt;
+}
+
+#input3{
+  width: 300px;
+  height: 50px;
+  background-color: white ;
+  opacity: 1;
+  font-size: 30pt;
+}
+
+#select{
+  width: 300px;
+  height: 50px;
+  background-color: white ;
+  opacity: 1;
+  font-size: 30pt;
+}
+
+#btn {
+	margin-top: 30px;
+	width: 200px;
+	height: 70px;
+	background-color: green;
+	color: white;
+	font-size: 30pt;
+	border-radius: 15px;
+
+}
+
+
 
 .boxes1{				/* divs for the placeholder boxes. Set the boxes into a display flex and put it into a row direction*/
 	padding-top: 50px;
@@ -212,7 +249,7 @@
   color: lightgreen;
 
 }
- #row1{
+ #row1{							/*shaddow and position fixed for the individiual rows*/
  	width: 30%;
  	border: 2px solid lightgrey;
  	border-width: 3px 1px 1px 1px;	
